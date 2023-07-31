@@ -1,0 +1,35 @@
+.resume_header{
+    background: #0e374e;
+    height: auto;
+    padding: 1.5vw;
+}
+.resume_header_content{
+    border: solid red;
+    text-align: center;
+}
+.name_of_the_user h1{
+    color: #fff;
+    font-size: 4vw;
+    font-weight: 700;
+}
+.job_title_user h2{
+    color: #fff;
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: SlimJoe;
+}
+.user_contact_link_container .d-flex{
+    margin: 0.5vw;
+}
+.user_contact_link_container span{
+    font-family: SlimJoe;
+    font-weight: lighter;
+    font-size: 0.7vw;
+    color: #ffffff;
+    margin-left: 0.35vw;
+}
+
+.user_contact_link_container i {
+    color: #fff;
+    font-size: 1vw;
+}

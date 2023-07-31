@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'BigJohn';
+    src: url("../src/assets/fonts/BigJohnSlimJoe/bigJohn.otf")format('opentype');
+}
+@font-face {
+    font-family: 'SlimJoe';
+    src: url("../src/assets/fonts/BigJohnSlimJoe/slimJoe.otf") format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: BigJohn;
+}
+
+a, li, ul,ol{
+    text-decoration: none;
+    list-style: none;
+}
+.d-flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-colum{
+    flex-direction: column;
+}
