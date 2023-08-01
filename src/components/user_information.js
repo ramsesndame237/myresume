@@ -28,13 +28,13 @@ class User_information extends HTMLElement {
     }
 
     render() {
-        this.innerHTML = ''
         if (this._user_data.hasOwnProperty('personal')) {
             console.log(this._user_data.personal)
             Object.keys(this._user_data.personal).forEach((element)=>{
             var customElement = document.createElement('custom-content')
-                customElement.setAttribute('icon', element.icon)
-                customElement.setAttribute('text', element.text)
+                console.log(this._user_data.personal[element])
+                customElement.setAttribute('icon', this._user_data.personal[element].icon)
+                customElement.setAttribute('text', this._user_data.personal[element].text)
                 this.appendChild(customElement)
             })
         }
